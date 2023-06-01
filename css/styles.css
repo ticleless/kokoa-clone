@@ -1,15 +1,18 @@
-@import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Rubik&display=swap');
+
+@import "reset.css";
 @import "variables.css";
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
+    height: 1000vh;
 }
 
 .welcome-header {
